@@ -1,8 +1,11 @@
 import './App.css';
-import {inventory} from "./constants/inventory.js";
+import {bestSellingTv, inventory} from "./constants/inventory.js";
 import {calculateSoldProducts} from "./helpers/totalTvSold.js"
 import {calculateInitialStock} from "./helpers/calculateInitialStock.js";
 import {calculateProductToBeSold} from "./helpers/calculateProductToBeSold.js";
+import {createProductName} from "./helpers/createProductName.js"
+import {createProductPrice} from "./helpers/createProductPrice.js";
+import {createProductScreenSizeString} from "./helpers/createProductScreenSizeString.js";
 
 function App() {
   return (
@@ -25,7 +28,9 @@ function App() {
                     </article>
               </div>
                 <h2> Beste verkochte tv </h2>
-                    <p className= "best-soldTv-info-box">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, commodi consequatur dicta eligendi laborum optio praesentium repudiandae sint soluta temporibus? </p>
+                    <p className= "best-soldTv-info-box"> {createProductName(bestSellingTv)} </p>
+                    <p> {createProductPrice(bestSellingTv)}</p>
+                    <p>{createProductScreenSizeString(bestSellingTv.availableSizes)}</p>
               </section>
       </main>
   )
