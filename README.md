@@ -47,12 +47,9 @@ de console leeg!
 * **Opdracht 1a:** Hoeveel tv's zijn er al verkocht? Schrijf een helperfunctie die dit berekent. Log de uitkomst in de
   console.
 * **Opdracht 1b:** Zorg ervoor dat dit aantal in het groen wordt weergegeven op de pagina.
-* **Opdracht 1c:** Hoeveel tv's heeft Tech It Easy in totaal ingekocht? Schrijf een helperfunctie die dit berekent. Log
-  de
-  uitkomst in de console.
+* **Opdracht 1c:** Hoeveel tv's heeft Tech It Easy in totaal ingekocht? Schrijf een helperfunctie die dit berekent. Log  de  uitkomst in de console.
 * **Opdracht 1d:** Zorg ervoor dat dit aantal in het blauw wordt weergegeven op de pagina.
-* **Opdracht 1e:** Schrijf een helperfunctie die berekent hoeveel tv's er nog verkocht moeten worden. Geef de uitkomst
-  in het rood weer op de pagina. _Tip:_ je kunt een helperfunctie gebruiken in een andere helperfunctie.
+* **Opdracht 1e:** Schrijf een helperfunctie die berekent hoeveel tv's er nog verkocht moeten worden. Geef de uitkomst  in het rood weer op de pagina. _Tip:_ je kunt een helperfunctie gebruiken in een andere helperfunctie.
 
 ### Opdracht 2 - Productweergave
 
