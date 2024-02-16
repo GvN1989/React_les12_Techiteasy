@@ -1,4 +1,4 @@
-
+/* ------------------------------- 1. Global Styles -------------------------------- */
 .page-container {
     max-width: 1200px;
     margin: 0;
@@ -6,13 +6,12 @@
 
 }
 
-.box {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    gap: 32px;
+.product-image img{
+    max-width: 200px;
 }
+/* ------------------------------- 2. Typography ----------------------------------- */
 
+/* ------------------------------- 3. Layout --------------------------------------- */
 .dashboard-box {
     border-radius: 4px;
     padding: 16px;
@@ -28,7 +27,6 @@
     border: 1px #087407 solid;
     color: #087407;
     background-color: #3FD568;
-
 }
 
 .items-in-stock {
@@ -42,3 +40,75 @@
     color: #C91810;
     background-color: #F87D7D;
 }
+
+.product-best-seller{
+    border: 1px grey dashed;
+    background-color: lightgrey;
+
+}
+
+.product.info{
+    border: 2px yellow dashed;
+    display: flex;
+    flex-direction: row;
+}
+
+.product-price{
+    font-size: 25px;
+}
+
+/* --------------- 3.1 Reusables ----------------------- */
+.product{
+    border-radius: 4px;
+    padding: 16px 32px;
+    margin: 8pc 0;
+    display: flex;
+    flex-direction: row;
+    gap: 34px;
+    align-items: center;
+}
+
+.option-list{
+    padding-left: 1px;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap:8px;
+}
+
+.option-list img {
+    margin-right: 4px;
+}
+
+.icon{
+    width: 12px;
+}
+/* --------------- 3.2 Other --------------------------- */
+
+/* ------------------------------- 4. Areas ---------------------------------------- */
+.box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 32px;
+}
+/* --------------- 4.1 Header ------------------------- */
+
+/* --------------- 4.2 Introduction ------------------- */
+
+/* ------------------------------- 5. Media Queries -------------------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
