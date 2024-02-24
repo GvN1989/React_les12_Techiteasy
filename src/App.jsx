@@ -42,8 +42,6 @@ function App() {
             });
         console.log(inventory);
     }
-
-
     return (
         <main className="page-container">
             <h1>Tech it easy Dashboard </h1>

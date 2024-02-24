@@ -71,8 +71,6 @@
     justify-content: flex-start;
     gap: 34px;
     align-items: stretch;
-    flex-shrink: 1;
-    flex-grow: 1;
 }
 
 
