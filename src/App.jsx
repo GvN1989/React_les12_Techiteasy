@@ -43,7 +43,6 @@ function App() {
         console.log(inventory);
     }
 
-    const remainingProducts= calculateProductToBeSold(inventory);
 
     return (
         <main className="page-container">
@@ -94,7 +93,7 @@ function App() {
                     {inventory.map((tv) => {
                     return (
                         // eslint-disable-next-line react/jsx-key
-                        <article className="product"> {tv.brand}
+                        <article className="product">
                             <span className="product-image">
                               <img src={tv.sourceImg} alt="Afbeelding van het product"/>
                             </span>
@@ -119,6 +118,7 @@ function App() {
                                             }
                                         </ul>
                             </div>
+                            {tv.originalStock-tv.sold===0 && <img src = {outOfStock} alt="Sold Out" className="sold-out-image"/>}
                         </article>
                     )
                     })}
